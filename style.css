@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(56, 35, 151);
+  font-family: Poppins;
+}
+
+.background-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  height: 700px;
+}
+.background-image {
+  width: 800px;
+  height: 700px;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 14px;
+}
+header img {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 255px;
+}
+.main-container {
+  display: flex;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.main-container button {
+  margin-left: 3px;
+  border: 1px rgb(3, 3, 3) solid;
+}
+.main-container button:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: ease-in-out 0.5s;
+  background-color: rgb(0, 0, 0);
+}
+.add-container {
+  height: 530px;
+  width: 330px;
+  /* background-color: aqua; */
+  display: flex;
+  position: absolute;
+  margin-top: 120px;
+  justify-content: baseline;
+}
+.add-container p {
+  display: flex;
+  position: absolute;
+  font-weight: 300;
+}
+#todoInput {
+  border: 1px solid black;
+}

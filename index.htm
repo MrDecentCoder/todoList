@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" width="device-width" initial-scale="1.0" />
+    <title>ToDoList</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-container">
+      <img
+        class="background-image"
+        src="./img/kelly-sikkema-dgVSuJu58C0-unsplash.jpg"
+        alt=""
+      />
+      <header>
+        <h1>My ToDo List!</h1>
+        <img src="./img/to-do-list.png" alt="" />
+      </header>
+
+      <div class="main-container">
+        <input
+          id="todoInput"
+          type="text"
+          placeholder="What should I do today?"
+        />
+        <button id="todoBtn">Add</button>
+      </div>
+      <div class="add-container">
+        <ul id="todoContainer"></ul>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
